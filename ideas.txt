@@ -1,0 +1,15 @@
+Admins (can create more users)
+Users (Owners of Restaurants)
+==========
+Owners (can create multiple Restaurants)
+Menus
+Tables (to track orders)
+Orders
+==========
+Customer Details
+
+Menus
+- name of the dish
+- price of the dish
+- description of the dish
+- image of the dish
