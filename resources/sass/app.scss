@@ -3,11 +3,25 @@
 
 // Variables
 @import "variables";
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+// Fontawesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
 .validation-message {
-  color: $red;
-  font-size: 0.9em;
+    color: $red;
+    font-size: 0.9em;
+}
+
+.container-padding {
+    padding: 10px;
+}
+
+.pointer {
+    cursor: pointer;
 }

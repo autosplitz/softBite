@@ -18,4 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('item/save', 'MenuController@saveMenuItem');
+Route::group(['middleware' => ['auth:api']], function () {
+    Route::post('/resto', 'RestaurantController@store');
+    Route::post('/menu-items', 'MenuController@getRestaurantMenu');
+    Route::post('/order/save', 'RestaurantOrderController@store');
+});
+
+Route::post('/item', 'MenuController@addMenuItem');

@@ -24,6 +24,10 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "vue-multiselect": "^2.1.6"
+        "@fortawesome/fontawesome-free": "^5.13.0",
+        "turbolinks": "^5.2.0",
+        "vue-js-modal": "^1.3.35",
+        "vue-multiselect": "^2.1.6",
+        "vue-turbolinks": "^2.1.0"
     }
 }
